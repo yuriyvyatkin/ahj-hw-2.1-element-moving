@@ -1,0 +1,1 @@
+(()=>{"use strict";var t,e,a,o;t=16,e=1,a=function(t){return document.getElementById("hole".concat(t))},o=function t(){e=Math.floor(1+16*Math.random());var o=a(e);"true"===o.dataset.visited?t():o.className="hole hole_has-mole"},setInterval((function(){var n;(n=a(e)).className="hole",n.dataset.visited="true",(t-=1)<1||o()}),400)})();
